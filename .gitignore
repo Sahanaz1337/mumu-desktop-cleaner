@@ -1,0 +1,29 @@
+# Private signing material — NEVER publish
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.env
+.env*
+
+# Generated Android packages and temp build artifacts
+src/*.apk
+src/*.dex
+src/unsigned.apk
+src/combined_unsigned.apk
+src/mumu_ui.apk
+src/hook.apk
+src/vector_unsigned.apk
+src/devsign.jks
+src/vector_signing_key.jks
+__pycache__/
+*.pyc
+*.log
+*.db
+*-wal
+*-shm
+
+# Release binaries belong in GitHub Releases, not Git-tracked source
+dist/*.apk
